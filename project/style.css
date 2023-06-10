@@ -1,0 +1,238 @@
+
+
+[class*="col-"] {
+    float: left;
+    padding: 1px;
+    
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: lightgray;
+  }
+
+ 
+#name{
+    margin-left: 15%;
+    margin-right: 20%;
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+div h1 {
+  margin-top: -30%;
+  margin-left: 20%;
+  color: white;
+  font-size: 3em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  z-index: 1;
+  clear: both;
+}
+
+div button{
+  margin-top: -15%;
+  margin-left: 22%;
+  background-color: lightgray;
+  font-size: 1.5em;
+  padding: 1%;
+  border-radius: 5px;
+  text-transform: uppercase;
+  z-index: 1;
+  float: left;
+  clear: both;
+}
+
+#img1{
+  float: left;
+  z-index: -1;
+}
+
+.box{
+  
+  width: 30%;
+   min-height: fit-content;
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 2.5%;
+  text-align: center;
+  
+}
+svg{
+  width: 10rem;
+  height: 10rem;
+}
+
+.box2{
+  
+  width: 46%;
+  min-height: fit-content;
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 3%;
+  text-align: left;
+  justify-content:center;
+}
+
+
+.img2and3{
+  width: 60%;
+  height: 60%;
+  float: left;
+  margin-right: 5px;
+  
+
+}
+
+/* .box2 p{
+  display: inline;
+} */
+
+.border1{
+  height: 100%;
+  width: 100%;
+  
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #f44336;}
+.css {width: 80%; background-color: #f44336;}
+.js {width: 65%; background-color: #f44336;}
+
+
+#footer{
+  background-color: #111;
+  text-align: left;
+  color: white;
+  margin-top: 10px;
+  
+}
+
+.footer{
+  padding: 50px;
+}
+@media only screen and (min-width: 768px) {
+  #hide{
+    display: block;
+  }
+  #mobile{
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  svg{
+    width: 5rem;
+    height: 5rem;
+  }
+  #h1h1{
+    font-size: 1.2em;
+  }
+  div button{
+    margin-top: -15%;
+    margin-left: 22%;
+    background-color: lightgray;
+    font-size: 0.8em;
+    padding: 1%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    z-index: 1;
+    float: left;
+    clear: both;
+  }
+  .mobile-container {
+    max-width: 768px;
+    margin: auto;
+    background-color: #555;
+    
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    
+    color: white;
+  }
+  #hide{
+    display: none;
+  }
+  
+}
